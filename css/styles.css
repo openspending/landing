@@ -9152,17 +9152,17 @@ button.close {
   padding: 0.75em 0 0 0;
   margin: 0;
   clear: both;
-  background: #212329;
+  margin-left: -0.4em;
 }
-/* line 144, ../sass/osbs/_navs.scss */
+/* line 145, ../sass/osbs/_navs.scss */
 .main-nav a {
   text-decoration: none;
 }
-/* line 152, ../sass/osbs/_navs.scss */
+/* line 151, ../sass/osbs/_navs.scss */
 .main-nav li {
   list-style: none;
 }
-/* line 155, ../sass/osbs/_navs.scss */
+/* line 154, ../sass/osbs/_navs.scss */
 .main-nav li a {
   display: block;
   font-size: 1.4rem;
@@ -9172,7 +9172,7 @@ button.close {
   color: #fff;
   border-color: #2a2d34;
 }
-/* line 166, ../sass/osbs/_navs.scss */
+/* line 165, ../sass/osbs/_navs.scss */
 .main-nav li:first-of-type a {
   border-top-width: 1px;
 }
@@ -9185,13 +9185,13 @@ button.close {
     text-align: left;
     padding-bottom: 8px;
   }
-  /* line 177, ../sass/osbs/_navs.scss */
+  /* line 176, ../sass/osbs/_navs.scss */
   .main-nav li {
     display: table-cell;
     vertical-align: middle;
     padding-right: 1.5em;
   }
-  /* line 182, ../sass/osbs/_navs.scss */
+  /* line 181, ../sass/osbs/_navs.scss */
   .main-nav li a {
     display: inline-block;
     font-size: 1.5rem;
@@ -9202,51 +9202,51 @@ button.close {
     transition: all 0.2s;
     color: #a6abb7;
   }
-  /* line 190, ../sass/osbs/_navs.scss */
+  /* line 189, ../sass/osbs/_navs.scss */
   .no-touch .main-nav li a:hover {
     color: #fff;
   }
-  /* line 195, ../sass/osbs/_navs.scss */
+  /* line 194, ../sass/osbs/_navs.scss */
   .main-nav li.selected a,
   .main-nav li a.selected {
     color: #fff;
     box-shadow: 0 10px 0 #fff;
   }
-  /* line 201, ../sass/osbs/_navs.scss */
+  /* line 200, ../sass/osbs/_navs.scss */
   .main-nav li:first-of-type a {
     border-top: none;
   }
 }
 
-/* line 208, ../sass/osbs/_navs.scss */
+/* line 207, ../sass/osbs/_navs.scss */
 .secondary-nav {
   position: absolute;
   top: 16px;
   right: 16px;
 }
 @media (min-width: 992px) {
-  /* line 208, ../sass/osbs/_navs.scss */
+  /* line 207, ../sass/osbs/_navs.scss */
   .secondary-nav {
     top: 1.5em;
     right: 1.5em;
   }
 }
-/* line 218, ../sass/osbs/_navs.scss */
+/* line 217, ../sass/osbs/_navs.scss */
 .secondary-nav a {
   text-decoration: none;
 }
-/* line 222, ../sass/osbs/_navs.scss */
+/* line 221, ../sass/osbs/_navs.scss */
 .secondary-nav li {
   display: inline-block;
 }
-/* line 225, ../sass/osbs/_navs.scss */
+/* line 224, ../sass/osbs/_navs.scss */
 .secondary-nav li a {
   font-size: 1.3rem;
   text-transform: uppercase;
   display: block;
   margin-left: 1.5em;
 }
-/* line 233, ../sass/osbs/_navs.scss */
+/* line 232, ../sass/osbs/_navs.scss */
 .secondary-nav li.user a:before {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'os-icons' !important;
@@ -9265,44 +9265,44 @@ button.close {
   font-size: 0.9em;
 }
 
-/* line 245, ../sass/osbs/_navs.scss */
+/* line 244, ../sass/osbs/_navs.scss */
 .nav-trigger span {
   /* hamburger menu */
   background-color: #fff;
 }
-/* line 249, ../sass/osbs/_navs.scss */
+/* line 248, ../sass/osbs/_navs.scss */
 .nav-trigger span::before, .nav-trigger span::after {
   /* upper and lower lines */
   background-color: #fff;
 }
 
-/* line 256, ../sass/osbs/_navs.scss */
+/* line 255, ../sass/osbs/_navs.scss */
 .nav-is-visible .nav-trigger span {
   /* hide line in the center on mobile when nav is visible */
   background-color: rgba(255, 255, 255, 0);
 }
-/* line 260, ../sass/osbs/_navs.scss */
+/* line 259, ../sass/osbs/_navs.scss */
 .nav-is-visible .nav-trigger span::before, .nav-is-visible .nav-trigger span::after {
   /* preserve visibility of upper and lower lines - close icon */
   background-color: white;
 }
 
-/* line 266, ../sass/osbs/_navs.scss */
+/* line 265, ../sass/osbs/_navs.scss */
 .download {
   /* download button top-right visible on big devices */
   background-color: #2a2d34;
 }
-/* line 270, ../sass/osbs/_navs.scss */
+/* line 269, ../sass/osbs/_navs.scss */
 .no-touch .download:hover {
   background-color: #414550;
 }
-/* line 274, ../sass/osbs/_navs.scss */
+/* line 273, ../sass/osbs/_navs.scss */
 .download span {
   /* tooltip */
   background: #fff;
   color: #2a2d34;
 }
-/* line 279, ../sass/osbs/_navs.scss */
+/* line 278, ../sass/osbs/_navs.scss */
 .download span::before {
   /* right arrow colour */
   border-color: #fff;
