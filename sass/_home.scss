@@ -1,0 +1,28 @@
+.home {
+  .banner {
+    text-align: center;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-color: #232429;
+
+    .next-logo {
+      width: 108px;
+      display: inline-block;
+      margin-bottom: $base-spacing * 1.5;
+    }
+
+    .container {
+      max-width: 945px;
+    }
+
+  }
+  & > section {
+    text-align: center;
+    padding: $base-spacing*2 $base-spacing;
+
+    &:nth-child(even) {
+      background-color: $lighter-grey;
+    }
+  }
+}
