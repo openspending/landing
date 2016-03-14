@@ -9172,10 +9172,6 @@ button.close {
   color: #fff;
   border-color: #2a2d34;
 }
-/* line 165, ../sass/osbs/_navs.scss */
-.main-nav li:first-of-type a {
-  border-top-width: 1px;
-}
 @media (min-width: 992px) {
   /* line 139, ../sass/osbs/_navs.scss */
   .main-nav {
@@ -9185,13 +9181,13 @@ button.close {
     text-align: left;
     padding-bottom: 8px;
   }
-  /* line 176, ../sass/osbs/_navs.scss */
+  /* line 172, ../sass/osbs/_navs.scss */
   .main-nav li {
     display: table-cell;
     vertical-align: middle;
     padding-right: 1.5em;
   }
-  /* line 181, ../sass/osbs/_navs.scss */
+  /* line 177, ../sass/osbs/_navs.scss */
   .main-nav li a {
     display: inline-block;
     font-size: 1.5rem;
@@ -9202,51 +9198,47 @@ button.close {
     transition: all 0.2s;
     color: #a6abb7;
   }
-  /* line 189, ../sass/osbs/_navs.scss */
+  /* line 185, ../sass/osbs/_navs.scss */
   .no-touch .main-nav li a:hover {
     color: #fff;
   }
-  /* line 194, ../sass/osbs/_navs.scss */
+  /* line 190, ../sass/osbs/_navs.scss */
   .main-nav li.selected a,
   .main-nav li a.selected {
     color: #fff;
     box-shadow: 0 10px 0 #fff;
   }
-  /* line 200, ../sass/osbs/_navs.scss */
-  .main-nav li:first-of-type a {
-    border-top: none;
-  }
 }
 
-/* line 207, ../sass/osbs/_navs.scss */
+/* line 200, ../sass/osbs/_navs.scss */
 .secondary-nav {
   position: absolute;
   top: 16px;
   right: 16px;
 }
 @media (min-width: 992px) {
-  /* line 207, ../sass/osbs/_navs.scss */
+  /* line 200, ../sass/osbs/_navs.scss */
   .secondary-nav {
     top: 1.5em;
     right: 1.5em;
   }
 }
-/* line 217, ../sass/osbs/_navs.scss */
+/* line 210, ../sass/osbs/_navs.scss */
 .secondary-nav a {
   text-decoration: none;
 }
-/* line 221, ../sass/osbs/_navs.scss */
+/* line 214, ../sass/osbs/_navs.scss */
 .secondary-nav li {
   display: inline-block;
 }
-/* line 224, ../sass/osbs/_navs.scss */
+/* line 217, ../sass/osbs/_navs.scss */
 .secondary-nav li a {
   font-size: 1.3rem;
   text-transform: uppercase;
   display: block;
   margin-left: 1.5em;
 }
-/* line 232, ../sass/osbs/_navs.scss */
+/* line 225, ../sass/osbs/_navs.scss */
 .secondary-nav li.user a:before {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'os-icons' !important;
@@ -9265,44 +9257,44 @@ button.close {
   font-size: 0.9em;
 }
 
-/* line 244, ../sass/osbs/_navs.scss */
+/* line 237, ../sass/osbs/_navs.scss */
 .nav-trigger span {
   /* hamburger menu */
   background-color: #fff;
 }
-/* line 248, ../sass/osbs/_navs.scss */
+/* line 241, ../sass/osbs/_navs.scss */
 .nav-trigger span::before, .nav-trigger span::after {
   /* upper and lower lines */
   background-color: #fff;
 }
 
-/* line 255, ../sass/osbs/_navs.scss */
+/* line 248, ../sass/osbs/_navs.scss */
 .nav-is-visible .nav-trigger span {
   /* hide line in the center on mobile when nav is visible */
   background-color: rgba(255, 255, 255, 0);
 }
-/* line 259, ../sass/osbs/_navs.scss */
+/* line 252, ../sass/osbs/_navs.scss */
 .nav-is-visible .nav-trigger span::before, .nav-is-visible .nav-trigger span::after {
   /* preserve visibility of upper and lower lines - close icon */
   background-color: white;
 }
 
-/* line 265, ../sass/osbs/_navs.scss */
+/* line 258, ../sass/osbs/_navs.scss */
 .download {
   /* download button top-right visible on big devices */
   background-color: #2a2d34;
 }
-/* line 269, ../sass/osbs/_navs.scss */
+/* line 262, ../sass/osbs/_navs.scss */
 .no-touch .download:hover {
   background-color: #414550;
 }
-/* line 273, ../sass/osbs/_navs.scss */
+/* line 266, ../sass/osbs/_navs.scss */
 .download span {
   /* tooltip */
   background: #fff;
   color: #2a2d34;
 }
-/* line 278, ../sass/osbs/_navs.scss */
+/* line 271, ../sass/osbs/_navs.scss */
 .download span::before {
   /* right arrow colour */
   border-color: #fff;

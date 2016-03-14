@@ -162,10 +162,6 @@
   	}
   }
 
-  li:first-of-type a {
-    border-top-width: 1px;
-  }
-
 	@media (min-width: $screen-md-min) {
     position: static;
     width: auto;
@@ -197,9 +193,6 @@
         box-shadow: 0 ($highlight-height + 2px) 0 #fff;
       }
 
-      &:first-of-type a {
-        border-top: none;
-      }
     }
 	}
 }
