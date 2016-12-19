@@ -1,0 +1,5 @@
+globalConfig = {
+  snippets: {
+    ga: null
+  }
+};
